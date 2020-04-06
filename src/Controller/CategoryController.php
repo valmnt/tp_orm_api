@@ -42,7 +42,7 @@ class CategoryController extends AbstractBaseController
             [$category],
             Response::HTTP_OK,
             [],
-            ["groups" => "article:detail"]
+            ["groups" => "category:detail"]
         );
     }
 
